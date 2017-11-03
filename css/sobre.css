@@ -1,0 +1,78 @@
+.introducao_sobre{
+  width: 100%;
+  background: url(../img/bg-sobre.png) no-repeat center;
+  background-size: cover;
+  height:200px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.introducao_sobre h1{
+	font-size: 36px;
+	color: #e01763;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+.sobre_perfil {
+  padding: 33px 0px 0px 0px;
+  }
+
+.sobre_perfil p{
+	text-align: justify;
+	padding: 0 0 20px 30px;
+
+}
+
+.btn_contato{
+ 	padding-top: 10px;
+	clear: both;
+	 text-align: center;
+ 	font-weight: bold;
+}
+
+.sobre h2{
+	padding: 60px 0 20px 0;
+}
+
+.sobre h2:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 2.2px;
+	background: #000;
+  margin: 6px 0px 10px 73px;
+}
+
+.img_academica{
+	margin-top: -51px;
+	float: right;
+}
+
+.sobre_linha{
+	font-size: 14px;
+	font-family: georgia;
+}
+
+.sobre_linha ul {
+	padding-bottom: 20px;
+}
+
+.img_profisisonal{
+	margin-top: 63px;
+}
+
+.sobre_coluna{
+	padding-left: 33px;
+}
+.sobre_citacao{
+	padding: 60px 0 60px 0;
+  color: #7d7d7d;
+ 	text-align: center;
+}
+
+.sobre_citacao p{
+	font-size: 30px;
+
+}

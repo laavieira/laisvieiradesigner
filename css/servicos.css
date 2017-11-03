@@ -1,0 +1,63 @@
+.introducao_servicos{
+  width: 100%;
+  background: url(../img/bg-servicos.png) no-repeat center;
+  background-size: cover;
+  height:200px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.introducao_servicos h1{
+	font-size: 36px;
+	color: #e01763;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+.btn_contato{
+ 	padding-top: 10px;
+	clear: both;
+	 text-align: center;
+ 	font-weight: bold;
+}
+
+.servicos h2{
+	padding: 60px 0px 20px 33px;
+}
+
+.servicos h2:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 2.2px;
+	background: #000;
+  margin: 6px 0px 10px 40px;
+}
+
+.servicos p{
+	text-align: justify;
+	padding: 0px 0 20px 33px;
+}
+
+.img_academica{
+	margin-top: -51px;
+	float: right;
+}
+
+.servicos_linha{
+	font-size: 14px;
+	font-family: georgia;
+}
+
+.servicos_linha ul {
+	padding-bottom: 20px;
+}
+
+.img_profisisonal{
+	margin-top: 63px;
+}
+
+.servicos_design{
+
+}
