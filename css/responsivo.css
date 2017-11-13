@@ -1,0 +1,239 @@
+/* Estilo para tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.servicos_linha li {
+  background: #e01763;
+  width: 30%;
+  height: 290px;
+}
+
+.portfolio img {
+  width: 100%;
+}
+
+.qualidade {
+  padding: 65px 0px 65px 25px;
+}
+
+.qualidade_lista {
+  padding-top: 15px;
+  padding-bottom: 110px;
+}
+
+.qualidade_lista li {
+   text-align: center;
+   padding: 0 10px;
+   width: 30%;
+}
+
+.qualidade:after {
+  display: none;
+
+}
+
+.qualidade img {
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+
+/* sobre */
+
+.sobre_texto {
+  width: 64%;
+  padding: 0 0 0 55px;
+}
+
+.sobre_linha ul li{
+	width: 121px;
+}
+
+.sobre_coluna {
+    padding-left: 79px;
+    width: 300px;
+
+}
+
+
+
+/* serviços */
+.servico_texto {
+    width: 64%;
+    padding: 10px 0 0 75px;
+    text-align: justify;
+}
+
+.servicos_design {
+    padding: 62px 0px 0 75px;
+}
+
+
+.servicos_coluna {
+    padding-left: 79px;
+    width: 60%;
+}
+
+.serv_coluna {
+   padding-left: 75px;
+}
+
+
+
+}
+
+
+/* Estilo para smartphone */
+@media only screen and (max-width: 767px) {
+
+	.btn_rosa {
+  padding: 0px; 
+}
+
+
+.header{
+	position: relative;
+	height: 300px;
+}
+
+.header img{
+	margin: 0 auto;
+}
+
+.header menu{
+	text-align: center;
+}
+
+.header_menu ul {
+  width: 442px;
+  margin: 0 auto;
+}
+
+.header_menu ul li {
+  display: list-item;
+  margin: 0 auto;
+  width: 32%;
+  padding-top: 10px;
+}
+
+.header_menu ul li a {
+	color: #fff;	
+	border: 2px solid #fff;
+	width: 140px;
+	display: block;
+	padding: 6px 6px 6px 6px;
+	margin: 18px 0px -18px 0px;
+	text-align: center;
+}
+
+.header_menu ul li a:hover {
+	background: pink;
+	color: #e01763;
+	padding: 6px 6px 6px 6px;
+
+}
+
+.introducao{
+ padding-top: 120px;
+}
+
+.servicos_home {
+  padding: 45px 0;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.servicos_linha li {
+  background: #e01763;
+  margin-bottom: 15px;
+}
+
+
+.portfolio img{
+	margin: auto;
+	padding-bottom: 15px;
+}
+
+.qualidade:after {
+	display: none;
+}
+
+.quebra{
+	margin-top: 110px;
+}
+
+.quebra .quote-externo-branco {
+ max-width: 400px;
+}
+
+.rodape{
+    text-align: center;
+}
+
+.rodape h3 {
+ text-align: center; 
+}
+
+.rodape h3:after {
+ margin: 6px auto 12px auto;
+}
+
+.rodape ul{
+    padding-bottom: 25px;
+}
+
+
+/* Sobre */
+
+.sobre_perfil img {
+	margin: 0 auto;
+}
+
+.sobre_perfil p {
+  padding: 20px 30px 20px 30px;
+}
+
+.sobre h2 {
+   text-align: center;
+}
+
+.sobre h2:after {
+ 	margin: 6px auto 10px auto;
+}
+
+.sobre_linha {
+  padding: 0px 0px 0px 30px;
+}
+
+.sobre img{
+  display: none;
+}
+
+/* serviços */
+.servicos {
+  padding: 0px 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.servicos img{
+	display: none;
+}
+
+.servicos p {
+    text-align: justify;
+    padding: 0px 30px 20px 30px;
+}
+.img_design, .img_identidade, .img_web {
+display: none;
+}
+
+.identidade_visual_serv {
+    padding: 30px 0 0 30px;
+}
+
+
+
+
+
+}

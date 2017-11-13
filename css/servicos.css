@@ -1,4 +1,4 @@
-.introducao_servicos{
+.introducao_serv{
   width: 100%;
   background: url(../img/bg-servicos.png) no-repeat center;
   background-size: cover;
@@ -7,57 +7,88 @@
   text-align: center;
 }
 
-.introducao_servicos h1{
+.introducao_serv h1{
 	font-size: 36px;
 	color: #e01763;
 	font-weight: bold;
 	text-transform: uppercase;
 
 }
-
-.btn_contato{
- 	padding-top: 10px;
-	clear: both;
-	 text-align: center;
- 	font-weight: bold;
+.serv{
+	    padding: 0px 0 60px 0;
 }
 
-.servicos h2{
-	padding: 60px 0px 20px 33px;
+h2{
+	padding: 30px 0 20px 0;
 }
-
-.servicos h2:after {
+h2:after {
 	content: "";
 	display: block;
 	width: 60px;
 	height: 2.2px;
 	background: #000;
-  margin: 6px 0px 10px 40px;
+  margin: 6px auto 10px 28px
 }
 
-.servicos p{
-	text-align: justify;
-	padding: 0px 0 20px 33px;
+.titulo_identidade:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 2.2px;
+	background: #000;
+  margin: 6px auto 10px 45px;
 }
 
-.img_academica{
-	margin-top: -51px;
-	float: right;
+.identidade_visual_serv{
+	padding: 30px 0 0 0;
 }
 
-.servicos_linha{
+.img_identidade{
+	margin-top: -65px;
+}
+
+.img_design{
+	margin-top:30px;
+}
+
+.serv_linha{
 	font-size: 14px;
 	font-family: georgia;
 }
 
-.servicos_linha ul {
+.serv_linha ul {
 	padding-bottom: 20px;
+	text-align: justify;
 }
 
-.img_profisisonal{
-	margin-top: 63px;
+.serv_linha ul li{
+    padding:0 15px 20px 0;
 }
 
-.servicos_design{
 
+
+.serv_coluna{
+	padding-left: 30px;
+}
+.serv_citacao{
+	padding: 60px 0 60px 0;
+  color: #7d7d7d;
+ 	text-align: center;
+}
+
+.serv_citacao p{
+	font-size: 30px;
+
+}
+
+.linha:after {
+    content: "";
+    width: 655px;
+    height: 100px;
+    display: block;
+    background: url(../img/linhas.png) no-repeat center;
+    position: absolute;
+    top: 170px;
+    right: 150px;
+    z-index: -1;
 }
